@@ -5,9 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  console.log("Checking the git items");
-  console.log("Checking the git items 2");
-  res.send("Hello World!");
+    res.send("Welcome to the Node js Initial")
 });
 
 app.listen(port, () => {
