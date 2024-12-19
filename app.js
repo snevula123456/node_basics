@@ -5,6 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req,res)=> {
+    console.log("Checking the git items")
     res.send("Hello World!")
 })
 
